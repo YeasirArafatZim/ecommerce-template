@@ -10,7 +10,7 @@ import SectionProductInfo from './SectionProductInfo';
 
 type Props = {
   params: { productId: string };
-  searchParams: { [key: string]: string | string[] | undefined };
+  // searchParams: { [key: string]: string | string[] | undefined };
 };
 
 const getProductData = async (id: string) => {
